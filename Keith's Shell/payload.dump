@@ -1,0 +1,9 @@
+
+payload:     file format elf32-i386
+
+
+Disassembly of section .text:
+
+08048060 <.text>:
+ 8048060:	68 fb 89 04 08       	push   0x80489fb
+ 8048065:	c3                   	ret    

