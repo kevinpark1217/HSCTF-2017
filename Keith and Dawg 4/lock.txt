@@ -1,0 +1,83 @@
+struct table
+{
+  string dawg = "cat"
+  int cat2 = 672
+  int dog = 17
+  string feline = "A"
+  float kit = 92
+  float kat = 7
+  
+  string cat(int num)
+  {
+    cat3864 = cat2 / num
+    a59cat0 = dawg + str(kit*num)
+    return feline + str(num+dog) + dawg + str(mod % kat)
+  }
+}
+table tables
+
+struct math
+{
+  int powerin(int abc, int def)
+  {
+    int index = 0
+    int num = abc
+    for(index < def; index++)
+    {
+      num = num * (index+1)
+    }
+    return num
+  }
+}
+math maths
+
+struct pile #stack
+{
+  int length = 0
+  int max = -1
+  
+  void pushin(NOOB item)
+  {
+    #push element
+  }
+
+  NOOB poppin()
+  {
+    #pops element
+  }
+  
+  NOOB gettin(index)
+  {
+    #returns element without modifying the stack
+  }
+  
+  int sizin()
+  {
+    return #size of the stack
+  }
+}
+pile pin
+
+checkin(pile p)
+{
+  c = true
+  if(length == 3)
+  {
+    if( ((int)p.gettin(0) - 3) * 15 + 43 != 16807/7/7 )
+      c = false
+    if( maths.powerin( (int)p.gettin(0), (int)p.gettin(1) / (int)p.gettin(0) ) != 16560 )
+      c = false
+    if( tables.cat(p.gettin(2)) != 16)
+      c = false
+    return c
+  }
+}
+
+#push 1st num
+#push 2nd num
+#push 3rd num
+
+bool lock
+lock = checkin(pin)
+if(lock == true)
+  print #flag
