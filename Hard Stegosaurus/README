@@ -1,3 +1,16 @@
-Resources:
-	https://github.com/RobinDavid/LSB-Steganography
-	https://github.com/zed-0xff/zsteg
+compare doge.png edited.png -compose src diff.png
+
+Comparison of doge.png and edited.png show that color of every single pixel is different because the entire diff.png is covered in red. (The color would have been white if it was the same)
+
+Therefore, analysis of individual pixels were necessary.
+For example, colors at (0px, 0px):
+	edited.png	(196, 190, 89, 255)
+	orig.png	(196, 182, 85, 255)
+	Calculate the difference of values with r,g,b at hundreds,tens,ones positions respectively.
+	Then, we get 084, which is ASCII value of 'T'
+
+We repeat the same process for each individual pixels (with y row first) and get a text from
+	https://en.wikipedia.org/wiki/List_of_Australian_treaties
+
+Inside this text, our flag is embedded inside.
+	The flag is "don't you love australian law?"
