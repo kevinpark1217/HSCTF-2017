@@ -1,0 +1,12 @@
+https://pentest-tools.com/website-vulnerability-scanning/discover-hidden-directories-and-files
+
+I used an online URL fuzzer tool to find any other .php files behind that webserver.
+Sure enough there is 3.php, which is from the removed problem 'Keith and Dawg 3'.
+
+I just started to mess around with it and inputed
+	admin" OR IF(1=1, true, false); #
+for username and any random string for password.
+
+And somehow I got the flag.
+
+the flag is: 814213eb444efc2eb8116b0f3b224f2c
